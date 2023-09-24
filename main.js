@@ -33,14 +33,14 @@ if(useremail.value!=''){
         usersinfo.push(users);
     
     }
+    else{
+        usersinfo[z]=users
+        send.textContent = "Send";
+    
+    
+    }
 }
 
-else{
-    usersinfo[z]=users
-    send.textContent = "Send";
-
-
-}
 
 
 showdata()
